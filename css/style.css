@@ -1,0 +1,38 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    display: grid; 
+    grid-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    text-align: center;
+    background-color: rgb(125, 51, 185);
+}
+h1, h4 {
+    color: aliceblue;
+}
+.header .home {
+    display: inline-block;
+    background-color: rgb(185, 82, 51);
+}
+.header .about {
+    display: inline-block;
+    background-color: rgb(57, 81, 214);
+}
+.header .projects {
+    display: inline-block;
+    background-color: rgb(185, 176, 51);
+}
+.header .end {
+    display: inline-block;
+    background-color: rgb(51, 185, 73);
+}
+
+.cover {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+    background-color: chartreuse;
+}
